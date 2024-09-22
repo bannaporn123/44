@@ -1,0 +1,151 @@
+/* กำหนดรูปแบบทั่วไป */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* เปลี่ยนสีพื้นหลัง */
+    color: #fff; /* เปลี่ยนสีตัวอักษรตามต้องการ */
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+}
+
+.nav-actions a {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: firebrick;
+    margin-right: 20px;
+}
+
+.btn {
+    display: flex;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.learn-more {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.more-models {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.more-models a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+}
+.image-container img:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .image-container {
+      flex-direction: column;
+    }
+    .image-container img {
+      width: 100%;
+    }
+  }
